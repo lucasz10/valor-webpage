@@ -1,9 +1,9 @@
 import React from "react";
 
-const HomePage = () => {
+const Schedule = () => {
     return (
         <div>
-            <h1>Home Page</h1>
+            <h1>Schedule</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quibusdam, voluptatum.
@@ -12,4 +12,4 @@ const HomePage = () => {
     )
 };
 
-export default HomePage;
+export default Schedule;
