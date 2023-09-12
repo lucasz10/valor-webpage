@@ -6,9 +6,9 @@ import HomePage from "./pages/HomePage";
 import Schedule from "./pages/Schedule";
 
 // Importing components
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Navigation from "./components/Navigation";
+import Header from "./components/Header/index.js";
+import Footer from "./components/Footer/index.js";
+import Navigation from "./components/Navigation/index.js";
 
 
 
@@ -16,8 +16,10 @@ function App() {
   return (
     <Router>
       <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/schedule" element={<Schedule />} />
+
+        <Route path="/valor-webpage" element={<HomePage />} />
+         <Route path="/schedule" element={<Schedule />} />
+
       </Routes>
     </Router>
   )
