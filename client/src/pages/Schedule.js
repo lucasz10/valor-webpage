@@ -1,17 +1,9 @@
 import React from "react";
-import Header from "../components/header/index.js";
 
-//branch1-initialstart
-export default function HomePage() {
-
-
-
-const HomePage = () => {
- main
+const Schedule = () => {
     return (
         <div>
-            <Header />
-            <h1>Home Page</h1>
+            <h1>Schedule</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quibusdam, voluptatum.
@@ -19,3 +11,5 @@ const HomePage = () => {
         </div>
     )
 };
+
+export default Schedule;
